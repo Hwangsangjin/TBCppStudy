@@ -9,15 +9,15 @@ int Add(int x, int y)
 
 int main()
 {
-	int my_v		= 1;
-	int x			= 4;
+	int x			= 1;
+	int my_value	= 4;
 	int num_apples	= 123;
 
 	// 주석
-	int x = 1 + 2;
+	int y = 1 + 2;
 
 	// 주석
-	int y = 3 + 4;
+	int z = 3 + 4;
 
 	return 0;
 }
