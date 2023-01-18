@@ -6,15 +6,15 @@ using namespace std;
 struct Friend
 {
 public:	// access specifier(public, protected, private)
-	string _name;
-	string _address;
-	int _age;
-	double _height;
-	double _weight;
+	string m_name;
+	string m_address;
+	int m_age;
+	double m_height;
+	double m_weight;
 
 	const void Print() const
 	{
-		cout << _name << " " << _address << " " << _age << " " << _height << " " << _weight << endl;
+		cout << m_name << " " << m_address << " " << m_age << " " << m_height << " " << m_weight << endl;
 	}
 };
 
